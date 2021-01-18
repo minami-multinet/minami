@@ -1,5 +1,5 @@
-alert('˜AŒg‚Å‚«‚Ü‚µ‚½');
-console.log("ƒƒO‚Ì‘‚«o‚µ");
+alert('é€£æºã§ãã¾ã—ãŸ');
+console.log("ãƒ­ã‚°ã®æ›¸ãå‡ºã—");
 
 function calcAge(year, month, day) {
         var birthdate = year * 10000 + month * 100 + day;
@@ -9,18 +9,21 @@ function calcAge(year, month, day) {
 }
 
 function main(){
-alert('main()ŠÖ”‚ªÀs‚³‚ê‚Ü‚µ‚½');
+alert('main()é–¢æ•°ãŒå®Ÿè¡Œã•ã‚Œã¾ã—ãŸ');
 
-    // ¶”NŒ“ú‚ğ•Ï”‚ÉŠi”[
+    // ç”Ÿå¹´æœˆæ—¥ã‚’å¤‰æ•°ã«æ ¼ç´
     var year = document.getElementById("year").value;
     var month = document.getElementById("month").value;
     var day = document.getElementById("day").value;
-   // ¶”NŒ“ú‚©‚çŒ»İ‚Ì”N—î‚ğŒvZ
+   // ç”Ÿå¹´æœˆæ—¥ã‹ã‚‰ç¾åœ¨ã®å¹´é½¢ã‚’è¨ˆç®—
     year = Number(year);
     month = Number(month);
     day = Number(day);
     age = calcAge(year, month, day);
-    // Œ‹‰Ê•\¦
+    // çµæœè¡¨ç¤º
     //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    alert('‚ ‚È‚½‚Ì”N—î‚Í' + age + 'Î‚Å‚·');
+    alert('ã‚ãªãŸã®å¹´é½¢ã¯' + age + 'æ­³ã§ã™');
 }
+
+
+mmmmmm2021
